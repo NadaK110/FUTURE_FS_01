@@ -1,0 +1,195 @@
+/* Home.css */
+
+/* Color palette/variables */
+:root {
+    --sage: #BCC7B1;
+    --cream: #FCF4E1;
+    --lavender: #E5D2E2;
+    --text-main: #2d3028;
+    --border-radius: 16px;
+  }
+  
+  /* Background page and main font styles */
+  body {
+    background: var(--cream);
+    margin: 0;
+    font-family: 'Montserrat', 'Segoe UI', sans-serif;
+    color: var(--text-main);
+    line-height: 1.6;
+  }
+  
+
+  /* Main layout */
+  .home-root {
+    min-height: 100vh;
+    background: linear-gradient(135deg, var(--cream) 60%, var(--lavender) 100%);
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  /* Navbar styles */
+  .nav {
+    background: var(--sage);
+    padding: 1.2rem 2rem 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid var(--lavender);
+    box-shadow: 0 4px 18px 0 rgba(44,34,74,0.04);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+    margin-bottom: 2rem;
+  }
+  
+
+  /* Logo text */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: var(--lavender);
+  }
+  
+
+  /* Navbar links styling */
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 600;
+    font-size: 1rem;
+    transition: color 0.15s;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+  }
+  
+  .nav a:hover {
+    background: var(--lavender);
+    color: var(--sage);
+  }
+  
+
+  /* Intro section styling */
+  .hero {
+    text-align: center;
+    margin: 3rem 0 2.5rem 0;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--sage);
+    margin: 0 0 0.8rem 0;
+    letter-spacing: -1px;
+  }
+  .hero h1 span {
+    color: var(--lavender);
+  }
+  
+  .hero p {
+    color: var(--text-main);
+    font-size: 1.2rem;
+    background: var(--cream);
+    padding: 1rem 2rem;
+    border-radius: var(--border-radius);
+    display: inline-block;
+    box-shadow: 0 2px 12px 0 rgba(120,72,124,0.04);
+  }
+  
+
+  /* Section containers (About, Projects, Contact) */
+  .about, .contact, .projects {
+    background: var(--cream);
+    margin: 2rem auto 2rem auto;
+    padding: 2rem 2rem 1.7rem 2rem;
+    border-radius: var(--border-radius);
+    max-width: 600px;
+    box-shadow: 0 2px 18px 0 rgba(120,72,124,0.10);
+    border-left: 5px solid var(--sage);
+  }
+  
+
+  /* Section titles */
+  .about h2, .projects h2, .contact h2 {
+    color: var(--lavender);
+    margin-top: 0;
+  }
+  
+/* List of projects */
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Project card styling (interactive) */
+  .project-card {
+    border: 2px solid var(--lavender);
+    border-radius: var(--border-radius);
+    padding: 1rem 1.5rem;
+    background: var(--sage);
+    color: var(--text-main);
+    box-shadow: 0 2px 8px 0 rgba(120,72,124,0.06);
+    transition: transform 0.12s;
+  }
+  .project-card:hover {
+    transform: translateY(-4px) scale(1.02);
+    box-shadow: 0 6px 30px 0 rgba(120,72,124,0.10);
+  }
+  
+
+  /* Contact button styling */
+  .contact-btn {
+    background: var(--lavender);
+    color: var(--text-main);
+    font-weight: bold;
+    padding: 0.8rem 2rem;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    margin-top: 1rem;
+    display: inline-block;
+    transition: background 0.13s, color 0.13s, box-shadow 0.12s;
+    box-shadow: 0 2px 8px 0 rgba(120,72,124,0.06);
+  }
+  .contact-btn:hover {
+    background: var(--sage);
+    color: var(--cream);
+  }
+  
+  /* Footer styling */
+  .footer {
+    text-align: center;
+    font-size: 0.95rem;
+    padding: 1.5rem 0 1rem 0;
+    color: var(--sage);
+    margin-top: auto;
+  }
+  
+  /* Responsive for mobile */
+  @media (max-width: 700px) {
+    .home-root {
+      padding: 0 0.3rem;
+    }
+  
+    .nav {
+      flex-direction: column;
+      gap: 0.8rem;
+      padding: 1rem 0.5rem;
+      margin-bottom: 1.2rem;
+    }
+  
+    .about, .contact, .projects {
+      padding: 1.2rem 0.4rem;
+      max-width: 98vw;
+    }
+    .project-card {
+      padding: 0.8rem 0.7rem;
+    }
+  }
