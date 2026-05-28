@@ -1,69 +1,73 @@
-// Home.js
 import React from 'react';
 import './Home.css';
+import Nav from './Navbar';
 
 const Home = () => {
   return (
     <main className="home-root">
-      {/* Navbar At The To */}
-      <nav className="nav">
-        <div className="logo">NadaK</div>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
 
-      {/* Intro Section */}
+      <Nav />
+
       <section className="hero">
-        <h1>
-          Hello, I'm <span>Nada</span>
-        </h1>
-        <p>Creative Developer & Tech Enthusiast</p>
+        <div className="hero-tag">Full Stack Developer</div>
+        <h1>Hello, I'm <span>Nada</span></h1>
+        <p className="hero-subtitle">Creative Developer & Tech Enthusiast</p>
+        <div className="hero-btns">
+          <a href="#projects" className="btn-primary">View Projects</a>
+          <a href="#contact" className="btn-secondary">Download CV</a>
+        </div>
       </section>
 
-      {/* About Section */}
-      <section id="about" className="about">
+      <div className="divider" />
+
+      <section id="about" className="section">
+        <div className="section-label">01. about</div>
         <h2>About Me</h2>
-        <p>
-          I'm a passionate developer who loves building beautiful, interactive experiences.<br />
+        <p className="section-text">
+          I'm a passionate developer who loves building beautiful, interactive experiences.
           I blend technology, creativity, and attention to detail into everything I make.
         </p>
+        <div className="skills">
+          <span className="skill">React</span>
+          <span className="skill">JavaScript</span>
+          <span className="skill">HTML/CSS</span>
+          <span className="skill">Node.js</span>
+          <span className="skill">Git</span>
+        </div>
       </section>
 
-      {/* Projects Section */}
-      <section id="projects" className="projects">
+      <div className="divider" />
+
+      <section id="projects" className="section">
+        <div className="section-label">02. projects</div>
         <h2>Projects</h2>
-        <div className="project-list">
+        <div className="project-cards">
           <div className="project-card">
             <h3>Portfolio Website</h3>
-            <p>
-              My own site—coded by hand using React &amp; custom CSS, with a unique, aesthetic theme.
-            </p>
+            <p>My own site coded in React with a techy dark theme.</p>
+            <span className="card-tag">React</span>
           </div>
           <div className="project-card">
             <h3>Game UI Clone</h3>
-            <p>
-              A playful frontend clone inspired by iconic gaming menus, using subtle, modern CSS effects.
-            </p>
+            <p>Frontend clone inspired by iconic gaming menus.</p>
+            <span className="card-tag">CSS</span>
           </div>
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="contact">
+      <div className="divider" />
+
+      <section id="contact" className="section">
+        <div className="section-label">03. contact</div>
         <h2>Contact</h2>
-        <p>
-          Want to collaborate or just say hi?<br />
-          <a href="mailto:your.email@example.com" className="contact-btn">
-            Email Me
-          </a>
-        </p>
+        <div className="contact-box">
+          <p>Want to collaborate or just say hi?</p>
+          <a href="mailto:your.email@example.com" className="btn-primary">Email Me</a>
+        </div>
       </section>
 
-      {/* Footer At Bottom */}
-      <footer className="footer">© 2026 NadaK. All rights reserved.</footer>
+      <footer className="footer">© 2026 NADAK — ALL RIGHTS RESERVED</footer>
+
     </main>
   );
 };
