@@ -71,3 +71,24 @@
   .nav-links { gap: 0.2rem; }
   .nav-links a { font-size: 0.7rem; padding: 0.3rem 0.5rem; }
 }
+
+.theme-toggle {
+  background: #1a0a2e;
+  border: 1px solid #a855f733;
+  color: #e9d5ff;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  margin-left: 0.5rem;
+}
+
+.theme-toggle:hover {
+  background: #a855f7;
+  border-color: #a855f7;
+}

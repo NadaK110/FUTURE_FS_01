@@ -437,3 +437,101 @@ body {
   .hero-btns { flex-direction: column; align-items: center; }
   .section { padding: 1.5rem 1rem; }
 }
+
+[data-theme='light'] {
+  --bg-main: #f8f5ff;
+  --bg-surface: #f0e9ff;
+  --bg-card: #f0e9ff;
+  --accent: #7c3aed;
+  --accent-light: #a855f7;
+  --accent-dim: #a855f733;
+  --text-primary: #1e1035;
+  --text-secondary: #4a3b6b;
+  --text-muted: #6b5c8a;
+  --border: #d8b4fe;
+}
+
+[data-theme='light'] body {
+  background: #f8f5ff;
+  color: #1e1035;
+}
+
+[data-theme='light'] .home-root,
+[data-theme='light'] .about-root,
+[data-theme='light'] .projects-root,
+[data-theme='light'] .contact-root {
+  background: #f8f5ff;
+}
+
+[data-theme='light'] .nav {
+  background: #f0e9ff;
+  border-bottom-color: #d8b4fe44;
+}
+
+[data-theme='light'] .hero {
+  background: #f8f5ff;
+}
+
+[data-theme='light'] .stat,
+[data-theme='light'] .card,
+[data-theme='light'] .info-card,
+[data-theme='light'] .form-side,
+[data-theme='light'] .contact-box,
+[data-theme='light'] .tl-content,
+[data-theme='light'] .skill-card,
+[data-theme='light'] .edu-card,
+[data-theme='light'] .hobby-card {
+  background: #f0e9ff;
+  border-color: #d8b4fe44;
+}
+
+[data-theme='light'] .hero h1,
+[data-theme='light'] .banner-name,
+[data-theme='light'] .section h2,
+[data-theme='light'] .card-title,
+[data-theme='light'] .info-title,
+[data-theme='light'] .form-title {
+  color: #1e1035;
+}
+
+[data-theme='light'] .hero-subtitle,
+[data-theme='light'] .about-text,
+[data-theme='light'] .card-desc,
+[data-theme='light'] .info-desc,
+[data-theme='light'] .bio-text {
+  color: #4a3b6b;
+}
+
+[data-theme='light'] .grid-lines {
+  background-image:
+    linear-gradient(#7c3aed0a 1px, transparent 1px),
+    linear-gradient(90deg, #7c3aed0a 1px, transparent 1px);
+}
+
+[data-theme='light'] .form-input {
+  background: #fff;
+  border-color: #d8b4fe44;
+  color: #1e1035;
+}
+
+[data-theme='light'] .form-input::placeholder {
+  color: #a855f777;
+}
+
+[data-theme='light'] .skill-bar,
+[data-theme='light'] .skill-bar-v {
+  background: #d8b4fe44;
+}
+
+[data-theme='light'] .divider {
+  background: linear-gradient(90deg, transparent, #d8b4fe, transparent);
+}
+
+[data-theme='light'] .footer {
+  color: #a855f777;
+  border-top-color: #d8b4fe33;
+}
+
+[data-theme='light'] .banner {
+  background: linear-gradient(135deg, #ede9fe 0%, #f3e8ff 50%, #f8f5ff 100%);
+}
