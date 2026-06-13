@@ -8,8 +8,8 @@ const About = () => {
       document.querySelectorAll('.skill-fill-v').forEach(el => {
         el.style.width = el.dataset.w;
       });
-    }, 300);
-
+    }, 500);
+  
     document.querySelectorAll('.skill-card').forEach(card => {
       card.addEventListener('click', function () {
         document.querySelectorAll('.skill-card').forEach(c => c.classList.remove('active'));
@@ -68,6 +68,11 @@ const About = () => {
           <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">Git</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="75%"></div></div></div>
           <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">MongoDB</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="55%"></div></div></div>
           <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">Figma</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="60%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">MySQL</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="70%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">PHP</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="60%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">SQL</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="65%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">Python</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="55%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">Video Editing</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="50%"></div></div></div>
         </div>
       </div>
       
@@ -79,7 +84,7 @@ const About = () => {
   <h2>Education & Experience</h2>
   <div className="timeline">
     <div className="tl-item">
-      <div className="tl-dot">🎓</div>
+      <div className="tl-dot">☕︎</div>
       <div className="tl-content">
         <div className="tl-title">Bachelor's in Computer Science</div>
         <div className="tl-sub">Heriot Watt University, Dubai</div>
@@ -87,7 +92,7 @@ const About = () => {
       </div>
     </div>
     <div className="tl-item">
-      <div className="tl-dot">💼</div>
+      <div className="tl-dot">☕︎</div>
       <div className="tl-content">
         <div className="tl-title">Full Stack Developer Intern</div>
         <div className="tl-sub">Future Interns</div>
@@ -95,7 +100,7 @@ const About = () => {
       </div>
     </div>
     <div className="tl-item">
-      <div className="tl-dot">🚀</div>
+      <div className="tl-dot">☕︎</div>
       <div className="tl-content">
         <div className="tl-title">Creative Video Editor And Content Creator</div>
         <div className="tl-sub">Personal Account | TikTok - @otta_games</div>
@@ -103,7 +108,7 @@ const About = () => {
       </div>
     </div>
     <div className="tl-item">
-      <div className="tl-dot">🎯</div>
+      <div className="tl-dot">☕︎</div>
       <div className="tl-content">
         <div className="tl-title">Aesthetic Reel Content Creator</div>
         <div className="tl-sub">Personal Account | Instagram - @bookbarnx</div>
@@ -111,7 +116,7 @@ const About = () => {
       </div>
     </div>
     <div className="tl-item">
-      <div className="tl-dot">⚡</div>
+      <div className="tl-dot">☕︎</div>
       <div className="tl-content">
         <div className="tl-title">Industry Exposure Intern</div>
         <div className="tl-sub">Logitech, Dubai</div>
