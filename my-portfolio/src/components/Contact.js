@@ -65,7 +65,7 @@ const Contact = () => {
           </div>
           <div className="info-card">
             <div className="info-icon">📧</div>
-            <div><div className="info-label">Email</div><div className="info-val">your@email.com</div></div>
+            <div><div className="info-label">Email</div><div className="info-val">nada_ak@icloud.com</div></div>
           </div>
           <div className="info-card">
             <div className="info-icon">📍</div>
@@ -78,9 +78,9 @@ const Contact = () => {
           <div>
             <div className="social-title">Find me on</div>
             <div className="social-row">
-              <a href="https://github.com" target="_blank" rel="noreferrer" className="social-btn">GitHub</a>
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="social-btn">LinkedIn</a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" className="social-btn">Twitter</a>
+              <a href="https://github.com/NadaK110" target="_blank" rel="noreferrer" className="social-btn">GitHub</a>
+              <a href="https://www.linkedin.com/in/nada-khan-210455380/" target="_blank" rel="noreferrer" className="social-btn">LinkedIn</a>
+              <a href="https://www.instagram.com/bombacolastic01/" target="_blank" rel="noreferrer" className="social-btn">Instagram</a>
             </div>
           </div>
         </div>

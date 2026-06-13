@@ -39,7 +39,7 @@ const About = () => {
       <div className="info-strip">
         <div className="info-item"><div className="info-num">5+</div><div className="info-label">Projects</div></div>
         <div className="info-item"><div className="info-num">8+</div><div className="info-label">Skills</div></div>
-        <div className="info-item"><div className="info-num">6mo</div><div className="info-label">Experience</div></div>
+        <div className="info-item"><div className="info-num">2yrs</div><div className="info-label">Experience</div></div>
         <div className="info-item"><div className="info-num">∞</div><div className="info-label">Passion</div></div>
       </div>
 
@@ -61,43 +61,68 @@ const About = () => {
           <h2>Tech Stack</h2>
         </div>
         <div className="h-scroll">
-          <div className="skill-card active"><div className="skill-icon">⚛️</div><div className="skill-title">React</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="85%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🟨</div><div className="skill-title">JavaScript</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="80%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🎨</div><div className="skill-title">HTML/CSS</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="90%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🟢</div><div className="skill-title">Node.js</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="65%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🐙</div><div className="skill-title">Git</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="75%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🍃</div><div className="skill-title">MongoDB</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="55%"></div></div></div>
-          <div className="skill-card"><div className="skill-icon">🎯</div><div className="skill-title">Figma</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="60%"></div></div></div>
+          <div className="skill-card active"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">React</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="85%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">JavaScript</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="80%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">HTML/CSS</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="90%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">Node.js</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="65%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">Git</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="75%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">🎧ྀི</div><div className="skill-title">MongoDB</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="55%"></div></div></div>
+          <div className="skill-card"><div className="skill-icon">.✦ ݁˖</div><div className="skill-title">Figma</div><div className="skill-bar-v"><div className="skill-fill-v" data-w="60%"></div></div></div>
         </div>
       </div>
-
+      
       <div className="divider" />
 
       {/* Education Timeline */}
-      <section className="section">
-        <div className="sec-label">02. education</div>
-        <h2>Education & Experience</h2>
-        <div className="timeline">
-          <div className="tl-item">
-            <div className="tl-dot">🎓</div>
-            <div className="tl-content">
-              <div className="tl-title">Bachelor's in Computer Science</div>
-              <div className="tl-sub">Your University Name</div>
-              <div className="tl-year">2022 — 2026</div>
-            </div>
-          </div>
-          <div className="tl-item">
-            <div className="tl-dot">💼</div>
-            <div className="tl-content">
-              <div className="tl-title">Full Stack Developer Intern</div>
-              <div className="tl-sub">Future Interns</div>
-              <div className="tl-year">2026 — Present</div>
-            </div>
-          </div>
-        </div>
-        <div className="img-placeholder">+ Drop your photo or banner here</div>
-      </section>
-
+<section className="section">
+  <div className="sec-label">02. education</div>
+  <h2>Education & Experience</h2>
+  <div className="timeline">
+    <div className="tl-item">
+      <div className="tl-dot">🎓</div>
+      <div className="tl-content">
+        <div className="tl-title">Bachelor's in Computer Science</div>
+        <div className="tl-sub">Heriot Watt University, Dubai</div>
+        <div className="tl-year">2024 — 2028</div>
+      </div>
+    </div>
+    <div className="tl-item">
+      <div className="tl-dot">💼</div>
+      <div className="tl-content">
+        <div className="tl-title">Full Stack Developer Intern</div>
+        <div className="tl-sub">Future Interns</div>
+        <div className="tl-year">2026 — Present</div>
+      </div>
+    </div>
+    <div className="tl-item">
+      <div className="tl-dot">🚀</div>
+      <div className="tl-content">
+        <div className="tl-title">Creative Video Editor And Content Creator</div>
+        <div className="tl-sub">Personal Account | TikTok - @otta_games</div>
+        <div className="tl-year">2026 — Present</div>
+      </div>
+    </div>
+    <div className="tl-item">
+      <div className="tl-dot">🎯</div>
+      <div className="tl-content">
+        <div className="tl-title">Aesthetic Reel Content Creator</div>
+        <div className="tl-sub">Personal Account | Instagram - @bookbarnx</div>
+        <div className="tl-year">2024 — 2025</div>
+      </div>
+    </div>
+    <div className="tl-item">
+      <div className="tl-dot">⚡</div>
+      <div className="tl-content">
+        <div className="tl-title">Industry Exposure Intern</div>
+        <div className="tl-sub">Logitech, Dubai</div>
+        <div className="tl-year">July 2024</div>
+      </div>
+    </div>
+  </div>
+  <div className="img-banner">
+    <img src="/banner.jpg" alt="Nada" />
+  </div>
+</section>
       <div className="divider" />
 
       {/* Hobbies */}
@@ -105,10 +130,10 @@ const About = () => {
         <div className="sec-label">03. hobbies</div>
         <h2>Beyond Code</h2>
         <div className="hobbies-grid">
-          <div className="hobby-card"><div className="hobby-icon">🎮</div><div className="hobby-label">Gaming</div></div>
-          <div className="hobby-card"><div className="hobby-icon">🎨</div><div className="hobby-label">Design</div></div>
-          <div className="hobby-card"><div className="hobby-icon">📚</div><div className="hobby-label">Reading</div></div>
-          <div className="hobby-card"><div className="hobby-icon">🎵</div><div className="hobby-label">Music</div></div>
+          <div className="hobby-card"><div className="hobby-icon">🖤</div><div className="hobby-label">Gaming</div></div>
+          <div className="hobby-card"><div className="hobby-icon">🏐</div><div className="hobby-label">Volleyball</div></div>
+          <div className="hobby-card"><div className="hobby-icon">🐈‍⬛</div><div className="hobby-label">Reading</div></div>
+          <div className="hobby-card"><div className="hobby-icon">🎧</div><div className="hobby-label">Music</div></div>
         </div>
       </section>
 
