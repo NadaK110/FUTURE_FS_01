@@ -73,7 +73,7 @@ http://localhost:3000
 ## 🌐 Deployment
 
 - Frontend deployed on **Vercel**
-- Live link: *coming soon*
+- Live link: future-fs-01-ebyu.vercel.app
 
 ---
 
